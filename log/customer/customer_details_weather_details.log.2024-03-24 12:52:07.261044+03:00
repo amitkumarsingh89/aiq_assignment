@@ -1,0 +1,18 @@
+[2024-03-24 15:22:07,998] [customer_and_weather.py] INFO User Data Sample-->    id              name   username  ...     zipcode       lat        lon
+0   1     Leanne Graham       Bret  ...  92998-3874  -37.3159    81.1496
+1   2      Ervin Howell  Antonette  ...  90566-7771  -43.9509   -34.4618
+2   3  Clementine Bauch   Samantha  ...  59590-4157  -68.6102   -47.0653
+3   4  Patricia Lebsack   Karianne  ...  53919-4257   29.4572  -164.2990
+4   5  Chelsey Dietrich     Kamren  ...       33263  -31.8129    62.5342
+
+[5 rows x 10 columns]
+[2024-03-24 15:22:13,691] [customer_and_weather.py] INFO Weather Data Sample-->    weather_id weather_type  ...      lat       lon
+0         804       Clouds  ... -37.3159   81.1496
+1         804       Clouds  ... -43.9509  -34.4618
+2         804       Clouds  ... -68.6102  -47.0653
+3         804       Clouds  ...  29.4572 -164.2990
+4         804       Clouds  ... -31.8129   62.5342
+
+[5 rows x 18 columns]
+[2024-03-24 15:22:13,703] [credentials.py] INFO Found credentials in shared credentials file: ~/.aws/credentials
+[2024-03-24 15:22:21,998] [customer_and_weather.py] INFO Started: 2024-03-24 12:52:07.261044+03:00, Rows: 10 , Completed: 2024-03-24 12:52:21.998190+03:00

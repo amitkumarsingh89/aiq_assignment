@@ -1,0 +1,9 @@
+[2024-03-27 12:42:38,810] [customer_and_weather.py] INFO User Data Sample-->    id              name   username  ...     zipcode       lat        lon
+0   1     Leanne Graham       Bret  ...  92998-3874  -37.3159    81.1496
+1   2      Ervin Howell  Antonette  ...  90566-7771  -43.9509   -34.4618
+2   3  Clementine Bauch   Samantha  ...  59590-4157  -68.6102   -47.0653
+3   4  Patricia Lebsack   Karianne  ...  53919-4257   29.4572  -164.2990
+4   5  Chelsey Dietrich     Kamren  ...       33263  -31.8129    62.5342
+
+[5 rows x 10 columns]
+[2024-03-27 12:42:44,761] [customer_and_weather.py] CRITICAL All objects passed were None Error: ValueError Some Other Issue 

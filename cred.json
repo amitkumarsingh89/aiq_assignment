@@ -1,0 +1,11 @@
+{
+"api_key" : "",
+"secret_key" : "",
+"access_key" : "",
+"secret_erp_name" : "",
+"secret_redshift_name" : "",
+"region_name" : "",
+"bucket_name" : "",
+"prefix" : "aiq_data/",
+"redshift_iam_role" : ""
+}
