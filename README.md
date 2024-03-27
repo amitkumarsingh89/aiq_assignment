@@ -48,7 +48,13 @@ The ETL project involves extracting data from various sources, transforming it, 
 * Run create_table.py to set up tables in Redshift.
 * Execute ETL scripts (sales_order.py and customer_and_weather.py) to extract, transform, and load data.
 * Run analysis queries from analysis.sql on the loaded data in Redshift to generate insights.
-
+  
+## Scheduler
+* Make sure that apache airflow is installed on your computer and the project file is in the same directory as dag placed.
+* Airflow should be on same virtual environment else reinstall all the packages incase of different one.
+* You can get the DAG aiq_scheduler.py
+* This dag will run the script on daily basis however you can change it according to the requirement.
+  
 ## Analysis
 ![Lifetime Sales](Analysis/LifeTime_Rev_Order_AOQ_AOV.jpeg)
 ![Top Sales By Product Or Customer](Analysis/Top_Products_And_Customers_By_Rev.jpeg)
