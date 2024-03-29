@@ -11,8 +11,7 @@ CREATE TABLE aiq_data.sales_order (
     product_id character varying(100) ENCODE lzo,
     quantity numeric(18,0) ENCODE az64,
     price numeric(12,2) ENCODE az64,
-    order_date timestamp without time zone ENCODE az64,
-    PRIMARY KEY (order_id)
+    order_date timestamp without time zone ENCODE az64
 )
 DISTSTYLE AUTO
 SORTKEY ( order_date );
