@@ -16,7 +16,7 @@ The ETL project involves extracting data from various sources, transforming it, 
 * Data is loaded into AWS Redshift for storage and analysis. AWS credentials, including Redshift credentials, are stored securely in AWS Secret Manager.
 
 ## Data Modeling & Schema Design
-* Star Schema would be good choice for given use cased.
+* Snowflake Schema would be good choice for given use cased.
 * Fact table - saels order
   * Primary Key - order_id,
   * Foreign_key - customer_id
